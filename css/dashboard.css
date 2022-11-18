@@ -1,0 +1,52 @@
+* {
+  margin: 2px;
+}
+
+.main {
+  background-color: rgb(180, 222, 238);
+}
+.sub {
+  width: 1600px;
+  height: 30px;
+  background-color: wheat;
+}
+.dash1 {
+  margin-top: -50px;
+  border-left: 40px solid #1e2952;
+  background-color: #ffffff;
+  width: 360px;
+  height: auto;
+  border: thin 3px;
+}
+
+.logo {
+  position: relative;
+  margin-left: -360px;
+  border: 1px solid orangered;
+  width: 35px;
+  height: 40px;
+}
+.x {
+  background-color: white;
+  width: 1140px;
+  margin-left: 366px;
+  height: 45px;
+  /* border: 1px solid black; */
+}
+
+.user {
+  margin-top: 18px;
+  float: right;
+  margin-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #1e2952;
+}
+
+.profilepic {
+  height: 30px;
+  float: right;
+  margin-top: 8px;
+  margin-right: -110px;
+  border-radius: 12px;
+}

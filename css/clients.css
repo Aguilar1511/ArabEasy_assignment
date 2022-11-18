@@ -1,0 +1,71 @@
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  font-size: large;
+  color: #1e2952;
+  margin-top: -40px;
+  float: left;
+}
+
+input {
+  position: relative;
+  width: 300px;
+  float: left;
+  border: 6px thin black;
+}
+
+::placeholder {
+  font-size: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: grey;
+  font-style: italic;
+}
+
+.flex-container {
+  position: relative;
+  display: flex;
+  width: 320px;
+  height: 750px;
+  background-color: #f0f8ff;
+  flex-direction: column;
+  flex-basis: 320px;
+  overflow-y: scroll;
+  margin-left: -2px;
+}
+
+.flex-item {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid rgb(214, 228, 233);
+  border-radius: 8px;
+  margin: 10px;
+  height: 70px;
+  user-select: none;
+}
+
+.leftcol {
+  width: 70px;
+  height: 20px;
+  font-size: 12px;
+  float: left;
+}
+
+.rightcol {
+  font-size: 12px;
+  float: right;
+  height: 20px;
+}
+.downleftcol {
+  font-size: 12px;
+  margin-top: 35px;
+  float: left;
+  margin-left: -70px;
+}
+
+.downrightcol {
+  font-size: 12px;
+  margin-top: 35px;
+  float: right;
+  margin-right: -26px;
+}

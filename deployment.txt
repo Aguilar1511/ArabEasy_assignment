@@ -1,0 +1,22 @@
+
+Deployment
+
+
+1) we can use multiple platforms like netlify,
+firebase,heroku but i use AWS services to deploy my codebase.
+
+2) Login to aws cloud using free tier account
+
+3) Once the console screen is visible
+
+4) click on aws at the top  and select AWS beanstalk service under Compute for a easy & quick deployment.
+
+5) click on create new environment and after that select web server environment.
+
+6) next, select NODE JS environment & upload your codebase (zip) file.
+
+7) now choose default vpc and choose free tier t2 micro to deploy it on.
+
+8) click crate & in a couple of minutes web environment is live.
+
+Access your app on the url provided on the console web ser environment screen.
